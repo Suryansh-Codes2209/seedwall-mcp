@@ -17,7 +17,7 @@ Tools: `list_looks`, `describe_look`, `render`, `seed`.
 
 ## 2. Pick a look and render it
 
-1. Call `list_looks`. Match the look to the site's tone. Quiet and textured: `topographic`, `wave-lines`, `mesh-gradient`, `aurora`, `marble`. Technical: `blueprint`, `circuit`, `cutting-mat`, `truchet`. Playful: `geometric`, `halftone`, `pixel-dither`, `spirograph`.
+1. Call `list_looks`. Match the look to the site's tone. Quiet and textured: `topographic`, `wave-lines`, `mesh-gradient`, `aurora`, `marble`. Technical: `blueprint`, `circuit`, `cutting-mat`, `truchet`. Playful: `geometric`, `halftone`, `pixel-dither`, `spirograph`, `seed-head`. Showpieces that carry a hero on their own: `event-horizon` (a black hole), `attractor` (a strange attractor), `cymatics` (sand patterns from sound), `quasicrystal`, `op-art`. Showpieces draw the eye, so keep headlines beside or below the subject rather than over it.
 2. Call `describe_look` to see the colour params and their roles (`bg`, `fg`, `accent`).
 3. Call `render` with:
    - `text_free: true` for anything that sits behind the page's own content. Text is only for wallpapers and standalone covers.
