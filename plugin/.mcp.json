@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seedwall": {
+      "type": "http",
+      "url": "${SEEDWALL_MCP_URL:-https://mcp.seedwall.suryansh.work/mcp}"
+    }
+  }
+}

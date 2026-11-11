@@ -1,0 +1,35 @@
+{
+  "name": "seedwall-mcp",
+  "version": "0.1.0",
+  "description": "Seedwall as an MCP server (claude.ai connector) and a Claude Code plugin: generative hero backgrounds, banners, OG images and wallpapers.",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.test.json",
+    "test": "vitest run",
+    "dev": "tsx watch src/http.ts",
+    "start": "node dist/http.js",
+    "stdio": "tsx src/stdio.ts",
+    "smoke": "tsx scripts/smoke.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/node": "^2.1.2",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.4.0",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "type": "module",
+  "private": true,
+  "bin": {
+    "seedwall-mcp": "dist/stdio.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "seedwall",
+  "displayName": "Seedwall",
+  "description": "Generative hero backgrounds, section backgrounds, OG images, banners and wallpapers from Seedwall, wired straight into your project.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Suryansh"
+  },
+  "homepage": "https://seedwall.suryansh.work",
+  "repository": "https://github.com/Suryansh-Codes2209/seedwall-mcp",
+  "license": "MIT",
+  "keywords": [
+    "seedwall",
+    "generative-art",
+    "hero",
+    "background",
+    "og-image",
+    "svg",
+    "wallpaper"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://github.com/Suryansh-Codes2209/seedwall-mcp#privacy"
+}

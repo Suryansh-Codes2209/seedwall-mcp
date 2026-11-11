@@ -1,0 +1,13 @@
+{
+  "name": "seedwall",
+  "owner": { "name": "Suryansh" },
+  "metadata": { "description": "Seedwall generative art for Claude Code: hero backgrounds, section backgrounds, OG images, banners and wallpapers." },
+  "plugins": [
+    {
+      "name": "seedwall",
+      "source": "./plugin",
+      "version": "0.1.0",
+      "description": "Generate deterministic generative art with Seedwall and wire it into your project: hero and section backgrounds, OG images, banners."
+    }
+  ]
+}
