@@ -27,7 +27,19 @@ function summarizeParam(key: string, d: Look["params"][string]): string {
 
 /** Builds a fresh server. Stateless, so the HTTP handler can make one per request. */
 export function createServer(client = new SeedwallClient()): McpServer {
-  const server = new McpServer({ name: "seedwall", title: "Seedwall", version: VERSION }, { instructions: INSTRUCTIONS });
+  const server = new McpServer(
+    {
+      name: "seedwall",
+      title: "Seedwall",
+      version: VERSION,
+      websiteUrl: "https://mcp.seedwall.suryansh.work",
+      icons: [
+        { src: "https://mcp.seedwall.suryansh.work/icon.svg", mimeType: "image/svg+xml", sizes: ["any"] },
+        { src: "https://mcp.seedwall.suryansh.work/apple-touch-icon.png", mimeType: "image/png", sizes: ["180x180"] },
+      ],
+    },
+    { instructions: INSTRUCTIONS },
+  );
 
   server.registerTool(
     "list_looks",

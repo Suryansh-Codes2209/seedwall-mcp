@@ -1,4 +1,8 @@
+<img src="public/icon.svg" width="64" height="64" alt="Seedwall MCP icon">
+
 # Seedwall MCP
+
+Docs: **https://mcp.seedwall.suryansh.work**
 
 [Seedwall](https://seedwall.suryansh.work) generative art inside Claude: hero and section backgrounds, OG images, banners, blog covers and wallpapers. Every image is a pure function of (look, preset, params, size, seed), so URLs are stable and safe to embed.
 
