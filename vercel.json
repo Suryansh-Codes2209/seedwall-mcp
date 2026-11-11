@@ -1,3 +1,6 @@
 {
+  "framework": null,
+  "buildCommand": "npm run typecheck",
+  "outputDirectory": "public",
   "rewrites": [{ "source": "/mcp", "destination": "/api/mcp" }]
 }
